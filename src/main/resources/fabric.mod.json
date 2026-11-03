@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "itemcopier",
+  "version": "${version}",
+  "name": "ItemCopier",
+  "description": "Copies client-visible items out of any inventory GUI - including custom server menus - into a permanent local library, and restores them in Creative Mode where the server allows it.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.fejzu.itemcopier.client.ItemCopierClient"
+    ],
+    "main": [
+      "pl.fejzu.itemcopier.ItemCopier"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "itemcopier.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

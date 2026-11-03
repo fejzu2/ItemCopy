@@ -1,0 +1,11 @@
+{
+  "key.category.itemcopier.main": "ItemCopier",
+  "key.itemcopier.copy": "Copy hovered item",
+  "key.itemcopier.library": "Open item library",
+  "itemcopier.panel.title": "ITEM COPIER",
+  "itemcopier.panel.empty": "Library is empty - hover an item and press %s",
+  "itemcopier.panel.search": "Search...",
+  "itemcopier.screen.title": "ItemCopier - Library",
+  "itemcopier.settings.title": "ItemCopier - Settings",
+  "itemcopier.details.title": "ItemCopier - Item details"
+}

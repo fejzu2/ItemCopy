@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.fejzu.itemcopier.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AbstractContainerScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

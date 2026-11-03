@@ -1,0 +1,11 @@
+{
+  "key.category.itemcopier.main": "ItemCopier",
+  "key.itemcopier.copy": "Kopiuj item pod kursorem",
+  "key.itemcopier.library": "Otwórz bibliotekę itemów",
+  "itemcopier.panel.title": "ITEM COPIER",
+  "itemcopier.panel.empty": "Biblioteka jest pusta - najedź na item i wciśnij %s",
+  "itemcopier.panel.search": "Szukaj...",
+  "itemcopier.screen.title": "ItemCopier - Biblioteka",
+  "itemcopier.settings.title": "ItemCopier - Ustawienia",
+  "itemcopier.details.title": "ItemCopier - Szczegóły itemu"
+}

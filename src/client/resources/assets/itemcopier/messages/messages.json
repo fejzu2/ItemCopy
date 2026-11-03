@@ -1,0 +1,110 @@
+{
+  "prefix": [
+    "&8[&#17DD62I&#31DC57t&#4BDC4Ce&#64DB41m&#7EDA36C&#98DA2Co&#B2D921p&#CBD816i&#E5D80Be&#FFD700r&8]"
+  ],
+  "copied": [
+    "%prefix% &a✔ &fItem copied&8: &r%item%"
+  ],
+  "copied-duplicate": [
+    "%prefix% &e● &fAlready in library&8: &r%item%"
+  ],
+  "copied-replaced": [
+    "%prefix% &a✔ &fEntry refreshed&8: &r%item%"
+  ],
+  "copied-no-lore": [
+    "%prefix% &a✔ &fItem copied &8(&fbez lore&8)&8: &r%item%"
+  ],
+  "copied-lore-stripped": [
+    "%prefix% &a✔ &fItem copied&8: &r%item%",
+    "&8- &7Wycięto &e%count% &7linijkę/linijek lore według Twoich filtrów."
+  ],
+  "copy-empty-slot": [
+    "%prefix% &7That slot is empty."
+  ],
+  "copy-no-slot": [
+    "%prefix% &7Hover an item slot first."
+  ],
+  "copy-failed": [
+    "%prefix% &c✖ &fCould not copy that item&8: &7%error%"
+  ],
+  "library-full": [
+    "%prefix% &c✖ &fLibrary is full &8(&f%max% &fentries&8)&f - delete something first."
+  ],
+  "restore-no-permission": [
+    "%prefix% &c✖ &fCreative Mode or appropriate permissions required"
+  ],
+  "restore-no-space": [
+    "%prefix% &c✖ &fNo free inventory slot for that item."
+  ],
+  "restore-ok": [
+    "%prefix% &a✔ &fPlaced in inventory&8: &r%item%"
+  ],
+  "restore-rejected": [
+    "%prefix% &c✖ &fServer would reject this item&8: &7%error%"
+  ],
+  "restore-disabled-item": [
+    "%prefix% &c✖ &fThis item is disabled by the server's feature flags&8: &7%item%"
+  ],
+  "export-ok": [
+    "%prefix% &a✔ &fExported to &b%file%"
+  ],
+  "export-failed": [
+    "%prefix% &c✖ &fExport failed&8: &7%error%"
+  ],
+  "import-ok": [
+    "%prefix% &a✔ &fImported &e%count% &fentry/entries from &b%file%"
+  ],
+  "import-failed": [
+    "%prefix% &c✖ &fImport failed&8: &7%error%"
+  ],
+  "import-nothing": [
+    "%prefix% &7Nothing to import - put .nbt files in &b%dir%"
+  ],
+  "clipboard-snbt": [
+    "%prefix% &a✔ &fSerialized item data copied to clipboard&8."
+  ],
+  "clipboard-give": [
+    "%prefix% &a✔ &f/give command copied to clipboard&8."
+  ],
+  "clipboard-give-partial": [
+    "%prefix% &e● &f/give command copied, but &c%count% &fcomponent(s) could not be written as a command argument&8:",
+    "&8- &7%components%",
+    "&8- &fUse &bExport .nbt &for the clipboard &bRaw data &fbutton for a lossless copy&8."
+  ],
+  "clipboard-give-too-long": [
+    "%prefix% &e● &fThe command is &c%length% &fcharacters - the chat input only takes &e%limit%&8.",
+    "&8- &fIt would be cut off and lose components. Run it from a command block, or use &bExport .nbt&8."
+  ],
+  "library-load-failed": [
+    "%prefix% &c✖ &fCould not read the library file&8: &7%error%",
+    "&8- &fYour old file was kept as &b%backup%"
+  ],
+  "library-entry-broken": [
+    "%prefix% &e● &c%count% &fsaved entry/entries could not be read on this version and were skipped &8(&fthey stay in the file&8)&8."
+  ],
+  "library-save-failed": [
+    "%prefix% &c✖ &fCould not save the library&8: &7%error%"
+  ],
+  "deleted": [
+    "%prefix% &a✔ &fDeleted&8: &r%item%"
+  ],
+  "cleared": [
+    "%prefix% &a✔ &fRemoved &e%count% &fentry/entries."
+  ],
+  "renamed": [
+    "%prefix% &a✔ &fRenamed to&8: &r%label%"
+  ],
+  "lore-edited": [
+    "%prefix% &a✔ &fLore zmienione&8: &czostało usuniętych %removed%&8, &azostaje %kept%&8."
+  ],
+  "lore-edit-failed": [
+    "%prefix% &c✖ &fNie udało się zmienić lore&8: &7%error%"
+  ],
+  "lore-pattern-added": [
+    "%prefix% &a✔ &fDodano &e%count% &fwzorzec/wzorce do filtrów lore&8.",
+    "&8- &7Kolejne kopie będą je wycinać same. Lista&8: &bSettings → Lore filters"
+  ],
+  "lore-pattern-none": [
+    "%prefix% &7Nic nowego do dodania - te wzorce już masz."
+  ]
+}
